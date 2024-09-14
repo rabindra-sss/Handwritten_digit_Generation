@@ -7,7 +7,7 @@ This project implements a Generative Adversarial Network (GAN) to generate high-
 ## Architecture
 ### Generator
 * Layers:
- - Linear layer to project the latent vector into a higher-dimensional space.
+- Linear layer to project the latent vector into a higher-dimensional space.
  - Series of transpose convolutional layers (ConvTranspose2d) to upsample to 64x64 image dimensions.
  - Final convolutional layer to produce a single-channel (grayscale) 64x64 image.
 * Input:
